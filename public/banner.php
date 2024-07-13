@@ -18,72 +18,66 @@ require_once "src/layouts/header.php" ?>
     <h1 class="text-center text-dark">Le logiciel de paie qui s'adapte à vos besoins</h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-3">
         <div class="col d-flex align-items-start">
-            <i class="bx bx-error display-6  me-3"></i>
+            <i class="bx bx-refresh display-6  me-3"></i>
             <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Automatisez votre paie</h3>
                 <p>Le logiciel déborde d'automatismes pour vous faire gagner du temps. Vous aurez la certitude de la fiabilité des données. Moins d'erreurs, pour plus de temps.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#calendar3"></use>
-            </svg>
+        <i class="bx bx-calendar display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Congés et absences</h3>
+                <p>Peu importe le type d'absence ou de congé, vous pouvez le gérer avec SQUARHE, vos salarié soumettent eux-mêmes leurs congés et leurs demandes d'absence depuis leur espace.</p>
             </div>
         </div>
 
         <div class="col d-flex align-items-start">
-            <i class="bx bx-error display-6  me-3"></i>
+            <i class="bx bx-wifi display-6  me-3"></i>
             <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Travaillez en ligne</h3>
                 <p>Garder la main sur votre gestion de paie sans aucun logiciel à installer. Gérer les fiches de paie, les congés et absences. Même si vous êtes absent du bureau.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#home"></use>
-            </svg>
+        <i class="bx bx-file display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Documents RH</h3>
+                <p>Vous accueillez un nouvel employé ? Générez son contrat de travail et bien plus avec SQUARHE ! Importez vos modèles sur SQUARHE et générez vos documents en un clic.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#speedometer2"></use>
-            </svg>
+        <i class="bx bx-save display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Stockage de documents</h3>
+                <p>Une fois les documents générés et signés, ils sont stockés et archivés dans votre espace Documents sur SQUARHE. Plus besoin d'imprimer ! Vos employés deviennent plus autonomes et accèdent depuis leurs espaces personnels à ces documents.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#toggles2"></use>
-            </svg>
+        <i class="bx bx-coin display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Validation des frais</h3>
+                <p>Les managers reçoivent les demandes de remboursement de leur équipe. Ils visualisent la catégorie de dépense, la date et le montant. Le montant dépasse le plafond défini par l'administrateur ? Ils sont informés !</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#geo-fill"></use>
-            </svg>
+        <i class="bx bx-group display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Des rôles sur mesure</h3>
+                <p>Vos managers bénéficient d'un espace dédié, différent de leur espace personnel. Construit comme l'espace administrateur, il centralise toutes les informations dont ils ont besoin pour manager leur équipe.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#tools"></use>
-            </svg>
+        <i class="bx bx-check-circle display-6  me-3"></i>
+
             <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Validation des absences</h3>
+                <p>Vos managers reçoivent toutes les demandes de congés et absences des membres de leur équipe. Ils visualisent la période demandée, la durée et le type d'absence. Ils peuvent alors prendre la décision de la valider ou non.</p>
             </div>
         </div>
     </div>
