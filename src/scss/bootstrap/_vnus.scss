@@ -1,0 +1,33 @@
+.div-rounded{
+    border : $border-width $border-style $dark-border-subtle;
+    border-radius: $border-radius-xl;
+    padding: 1.5rem !important;
+    margin: 0.25rem !important;
+    /* background-color: #fff ; */
+}
+
+.btn {
+    --#{$prefix}btn-border-radius: #{$btn-border-radius-xl};
+
+}
+
+.nav-pills {
+    // scss-docs-start nav-pills-css-vars
+    --#{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};
+    --#{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};
+    --#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg};
+    // scss-docs-end nav-pills-css-vars
+  
+    .nav-link {
+      @include border-radius(var(--#{$prefix}nav-pills-border-radius));
+    }
+  
+    .nav-link.active,
+    .show > .nav-link {
+      color: var(--#{$prefix}nav-pills-link-active-color);
+      @include gradient-bg(var(--#{$prefix}nav-pills-link-active-bg));
+    }
+  }
+  .inset-0{
+    inset: 0;
+}

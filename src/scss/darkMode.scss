@@ -1,0 +1,130 @@
+
+$first-color-dark: #212529;
+$border-color-dark: #414649;
+body.dark-theme {
+  background: $first-color-dark;
+  color: #fff;
+  table {
+    color: #fff;
+    border-color: $border-color-dark;
+  }
+  .nav-sidebar {
+    background: $first-color-dark;
+    border-right: 1px solid #414649;
+  }
+
+  .nav-tabs {
+    border-color: $border-color-dark;
+  }
+  .modal-content {
+    background: #121212;
+  }
+
+  .nav-tabs .nav-link.active {
+    background: #121212;
+    color: #a6bec6;
+    border-color: $border-color-dark;
+  }
+
+  .alert-info {
+    color: #91cedf !important;
+    border-color: #003540 !important;
+    background-color: #092d34 !important;
+  }
+
+  .alert-success {
+    color: #95d5a1 !important;
+    border-color: #264236 !important;
+    background-color: #23352d !important;
+  }
+
+  .alert-primary {
+    color: #afc4ff !important;
+    border-color: #1f4163 !important;
+    background-color: #21344a !important;
+  }
+
+  .alert-danger {
+    color: #ffa5a1 !important;
+    border-color: #5c3339 !important;
+    background-color: #452c2f !important;
+  }
+  .border {
+    border: 1px solid $border-color-dark !important;
+  }
+  .dropdown-menu {
+    background-color: #121212;
+  }
+  .dropdown-menu a {
+    color: #fff;
+  }
+  .accordion-height {
+    max-height: 400px;
+    overflow: scroll;
+    background-color: $first-color-dark;
+  }
+
+  .accordion-body {
+    background-color: $first-color-dark;
+  }
+
+  .accordion-item {
+    border-color: $border-color-dark;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background: #1f2731;
+    color: #dde6f3;
+  }
+
+  .accordion-button.collapsed {
+    background-color: #121212;
+    color: #eef3f9;
+  }
+  @media screen and (max-width: 767px) {
+    .nav__list {
+      background-color: #212529;
+      border: 1px solid $border-color-dark;
+    }
+  }
+
+  .popover-body {
+    background: #121212;
+    color: #ffffff;
+    border: 1px solid $border-color-dark;
+  }
+
+  .popover-header {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid $border-color-dark;
+  }
+
+  .card__body__cookie {
+    background-color: rgb(0 0 0 / 48%) !important;
+    border: 1px solid $border-color-dark;
+  }
+  .btn-light {
+    color: #fff;
+    background-color: #1f2021;
+    border-color: $border-color-dark;
+  }
+
+  .border-end,
+  .border,
+  .border-start,
+  .border-top,
+  .border-bottom {
+    border-color: $border-color-dark !important;
+  }
+
+  select,
+  input[type="text"] {
+    background-color: #121212 !important;
+    color: #eef3f9;
+    border-color: #383d42;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.349);
+  }
+}

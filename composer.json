@@ -1,0 +1,31 @@
+{
+  "name": "vnus/toolkit",
+  "description": "logiciel RH",
+  "type": "project",
+  "authors": [
+    {
+      "name": "vnuswilliams",
+      "email": "payongvenus@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Squarhe\\": "class"
+    }
+  },
+  "require": {
+    "phpoffice/phpword": "^1.0",
+    "altorouter/altorouter": "1.1.0",
+    "phpoffice/phpspreadsheet": "^2.0",
+    "symfony/var-dumper": "^7.0",
+    "filp/whoops": "^2.15",
+    "phpmailer/phpmailer": "^6.9",
+    "fakerphp/faker": "^1.23",
+    "jenssegers/agent": "^2.6",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11"
+  }
+}
