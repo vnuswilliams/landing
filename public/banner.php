@@ -11,9 +11,9 @@ require_once "src/layouts/header.php" ?>
 </h1>
         <p class="lead">Libérez-vous des contraintes de la paie. Nous l’automatisons pour vous.
         Depuis Squarhe, vous centralisez votre paie et votre SIRH.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Default</button>
+        <div class="d-flex align-items-center gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary me-md-2">S'inscrire à la bêta</button>
+            <a href="#" class="text-primary">En savoir plus</a>
         </div>
     </div>
 </div>
@@ -192,49 +192,55 @@ require_once "src/layouts/header.php" ?>
     </div>
 </div>
 <div class="bg-light px-4 py-5">
-    <h1 class="text-center text-dark">Les options disponibles</h1>
-    <p class="text-center text-muted">Découvre les options Squarhe pour adapter votre solution aux options disponibles</p>
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis">
+        Devenez bêta-testeur et contribuez à façonner l'avenir de Squarhe</h2>
+        <p class="text-body-secondary">Nous sélectionnons soigneusement les bêta-testeurs en fonction de leur profil et de leurs intérêts. Nous comptons sur vous pour nous aider à faire de Squarhe le meilleur logiciel RH possible pour les entreprises camerounaises.
 
+Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
+        <a href="#" class="btn btn-primary ">S'inscrire</a>
+      </div>
 
-
-    <div class="row">
-        <div class="col">
-            <ul class="list-unstyled">
-                <li>
-                    <a class="" data-bs-toggle="collapse" href="#optionDematerializePayslip" aria-expanded="false" aria-controls="optionDematerializePayslip">
-                        Option de dématérialisation des bulletins de paie
-                    </a>
-                </li>
-                <li>
-                    <a class="text-muted" data-bs-toggle="collapse" href="#optionHolidaysLeave" aria-expanded="false" aria-controls="optionHolidaysLeave">
-                        Option de congés et d'absence
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-8">
-            <div class="collapse show">
-                <div class="row" id="optionDematerializePayslip">
-                    <div class="col">
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <i class="bx bx-check fs-5 me-1 fw-bold text-success"></i>
-                                Distribuez automatiquement les bulletins de paie par mail et dans l'espace collaborateur de vos salariés.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class='bx bx-brightness display-6 '></i>
             </div>
-        </div>
-    </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Accès exclusif</h4>
+            <p class="text-body-secondary">Soyez parmi les premiers à découvrir les nouvelles fonctionnalités et à tester les dernières innovations de Squarhe.</p>
+          </div>
 
+          <div class="col d-flex flex-column gap-2">
+            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class='bx bx-extension display-6'></i>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Avis et contribution</h4>
+            <p class="text-body-secondary">Vos commentaires et suggestions précieux nous aideront à améliorer Squarhe et à en faire le meilleur outil possible pour nos utilisateurs.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class='bx bx-chat display-6'></i>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Intéraction</h4>
+            <p class="text-body-secondary">Participez à des forums et à des discussions en ligne pour partager vos expériences avec d'autres bêta-testeurs et l'équipe de développement de Squarhe.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class='bx bx-crown display-6' ></i>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Reconnaissance</h4>
+            <p class="text-body-secondary">Votre nom figurera dans la liste des remerciements de la version officielle de Squarhe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 <div class="bg-white px-4 py-5">
-    <h1 class="text-center text-dark">Ce que nos clients pensent de SQUARHE</h1>
-</div>
-<div class="bg-light px-4 py-5">
-    <h1 class="text-center text-dark">Pourquoi je choisis Squarhe ?</h1>
+    <h1 class="text-center text-dark">Pourquoi choisir Squarhe ?</h1>
     <div class="row">
         <div class="col">
             <h4>Je simplifie ma paie</h4>
@@ -320,6 +326,9 @@ require_once "src/layouts/header.php" ?>
         </div>
     </div>
 
+</div>
+<div class="bg-light px-4 py-5">
+    <h1 class="text-center text-dark">Ce que nos clients pensent de SQUARHE</h1>
 </div>
 <div class="bg-white px-4 py-5">
     <h1 class="text-center text-dark">FAQs</h1>
