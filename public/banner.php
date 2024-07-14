@@ -65,7 +65,7 @@ require_once "src/layouts/header.php" ?>
             <div class="splide__track">
                 <div class="splide__list gap-3">
 
-                <div class="splide__slide">
+                    <div class="splide__slide">
                         <!-- basic plan -->
                         <div class="col  p-3 bg-light rounded-4">
                             <h2 class="fw-bold">Plan basique</h2>
@@ -250,22 +250,14 @@ require_once "src/layouts/header.php" ?>
 
         </div>
         <div class="col-6">
-<img
-    src="src\img\cookie.svg"
-    class="img-fluid rounded-top"
-    alt="" width="100"height="100"
-/>
+            <img src="src\img\cookie.svg" class="img-fluid rounded-top" alt="" width="100" height="100" />
 
         </div>
     </div>
 
     <div class="row my-4">
         <div class="col-6">
-        <img
-    src="src\img\ghost-img.png"
-    class="img-fluid rounded-top"
-    alt="" width="100"height="100"
-/>
+            <img src="src\img\ghost-img.png" class="img-fluid rounded-top" alt="" width="100" height="100" />
         </div>
         <div class="col-6">
             <h4>Je fais le choix de la fiabilité</h4>
@@ -316,11 +308,7 @@ require_once "src/layouts/header.php" ?>
 
         </div>
         <div class="col-6">
-        <img
-    src="src\img\cookie.svg"
-    class="img-fluid rounded-top"
-    alt="" width="100"height="100"
-/>
+            <img src="src\img\cookie.svg" class="img-fluid rounded-top" alt="" width="100" height="100" />
         </div>
     </div>
 
