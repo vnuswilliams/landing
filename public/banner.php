@@ -1,23 +1,23 @@
 <?php
 $title = "Squarhe";
 require_once "src/layouts/header.php" ?>
-<div class="bg-white  row flex-lg-row-reverse align-items-center g-5 px-4 py-5">
+<div class="bg-white  row flex-lg-row-reverse align-items-center g-5 px-4 py-5" id="BANNER">
     <div class="col-10 col-sm-8 col-lg-6">
         <img src="src\screenshot\hero screenshot.PNG" class="d-block mx-lg-auto img-fluid rounded-2 shadow-sm" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Gérez votre RH à la camerounaise avec simplicité et efficacité
 
-</h1>
+        </h1>
         <p class="lead">Libérez-vous des contraintes de la paie. Nous l’automatisons pour vous.
-        Depuis Squarhe, vous centralisez votre paie et votre SIRH.</p>
+            Depuis Squarhe, vous centralisez votre paie et votre SIRH.</p>
         <div class="d-flex align-items-center gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-primary me-md-2">S'inscrire à la bêta</button>
-            <a href="#" class="text-primary">En savoir plus</a>
+            <a href="#ABOUTBETATEST" class="text-primary">En savoir plus</a>
         </div>
     </div>
 </div>
-<div class="bg-light px-4 py-5">
+<div class="bg-light px-4 py-5" id="FEATURES">
     <h1 class="text-center text-dark">Le logiciel de paie qui s'adapte à vos besoins</h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-3">
         <div class="col d-flex align-items-start">
@@ -28,7 +28,7 @@ require_once "src/layouts/header.php" ?>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-        <i class="bx bx-calendar display-6  me-3"></i>
+            <i class="bx bx-calendar display-6  me-3"></i>
 
             <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Congés et absences</h3>
@@ -44,7 +44,7 @@ require_once "src/layouts/header.php" ?>
             </div>
         </div>
         <div class="col d-flex align-items-start">
-        <i class="bx bx-file display-6  me-3"></i>
+            <i class="bx bx-file display-6  me-3"></i>
 
             <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Documents RH</h3>
@@ -52,165 +52,182 @@ require_once "src/layouts/header.php" ?>
             </div>
         </div>
     </div>
+
+    <div class="text-center">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#seeMoreFeatures">Voir plus de fonctionnalités</a>
+    </div>
 </div>
-<div class="bg-white px-4 py-5">
+<div class="bg-white px-4 py-5" id="OFFRE">
     <h1 class="text-center text-dark">Nos offres</h1>
     <p class="text-center text-muted">Ne payez que ce dont vous avez réellement besoin.</p>
     <div class="row gap-3">
-        <!-- basic plan -->
-        <div class="col  p-3 bg-light rounded-4">
-            <h2 class="fw-bold">Plan basique</h2>
-            <p class="text-muted mb-3"> Le minimum pour gérer votre paie efficacement.</p>
+        <div class="splide" aria-label="Splide for the offer">
+            <div class="splide__track">
+                <div class="splide__list gap-3">
 
-            <div>
-                <p class="fs-3 fw-bold p-0">16 000 <sup class="text-muted">F cfa / mois</sup></p>
-                <p class="text-muted m-0 p-0"> + 500 F cfa par collaborateur par mois</p>
+                <div class="splide__slide">
+                        <!-- basic plan -->
+                        <div class="col  p-3 bg-light rounded-4">
+                            <h2 class="fw-bold">Plan basique</h2>
+                            <p class="text-muted mb-3"> Le minimum pour gérer votre paie efficacement.</p>
+
+                            <div>
+                                <p class="fs-3 fw-bold p-0">16 000 <sup class="text-muted">F cfa / mois</sup></p>
+                                <p class="text-muted m-0 p-0"> + 500 F cfa par collaborateur par mois</p>
+                            </div>
+
+                            <div>
+                                <p class="fw-bold p-0">Fonctionnalités</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>prévisualisation des bulletins</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>registre du personnel</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>import et export des données</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>1 espace administrateur</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Espace manager</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Espace salairié</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Congés et absences</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion de notes de frais</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Génération de documents RH</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des intérimaires</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des stagiaires</li>
+
+                                </ul>
+                            </div>
+                            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="splide__slide">
+                        <!-- Strat-Up -->
+                        <div class="col p-3 bg-light rounded-4">
+                            <h2 class="fw-bold">Plan avancé</h2>
+                            <p class="text-muted mb-3"> L’essentiel de la paie et des RH pour vous et vos salairiés</p>
+
+                            <div>
+                                <p class="fs-3 fw-bold ">16 000 <sup class="text-muted">F cfa / mois</sup></p>
+                            </div>
+
+
+                            <p class="text-muted m-0 p-0"> + 800 F cfa par collaborateur par mois</p>
+                            <div>
+                                <p class="fw-bold">Fonctionnalités</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>prévisualisation des bulletins</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>registre du personnel</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>import et export des données</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>5 espaces administrateur</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>10 espaces manager</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Espace salairié</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Congés et absences</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion de notes de frais</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Génération de documents RH</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des intérimaires</li>
+                                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des stagiaires</li>
+                                </ul>
+                            </div>
+                            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
+
+                        </div>
+                    </div>
+                    <div class="splide__slide">
+
+                        <!-- Premium -->
+                        <div class="col  p-3 bg-light rounded-4">
+                            <h2 class="fw-bold">Plan premium</h2>
+                            <p class="text-muted mb-3">Le plan basique et avancé pour vous et vos salairiés</p>
+
+                            <div>
+                                <p class="fs-3 fw-bold ">16 000 <sup class="text-muted">F cfa / mois</sup></p>
+                            </div>
+
+
+                            <p class="text-muted m-0 p-0"> + 1000 F cfa par collaborateur par mois</p>
+                            <div>
+                                <p class="fw-bold">Fonctionnalités</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Prévisualisation des bulletins</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Registre du personnel</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Import et export des données</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>10 espaces administrateur</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>20 espaces manager</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Espace salairié</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Congés et absences</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion de notes de frais</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Génération de documents RH</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion des intérimaires</li>
+                                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion des stagiaires</li>
+                                </ul>
+                            </div>
+                            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <p class="fw-bold p-0">Fonctionnalités</p>
-                <ul class="list-unstyled">
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>prévisualisation des bulletins</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>registre du personnel</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>import et export des données</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>1 espace administrateur</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Espace manager</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Espace salairié</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Congés et absences</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion de notes de frais</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Génération de documents RH</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des intérimaires</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des stagiaires</li>
-
-                </ul>
-            </div>
-            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
-
-        </div>
-
-        <!-- Strat-Up -->
-        <div class="col p-3 bg-light rounded-4">
-            <h2 class="fw-bold">Plan avancé</h2>
-            <p class="text-muted mb-3"> L’essentiel de la paie et des RH pour vous et vos salairiés</p>
-
-            <div>
-                <p class="fs-3 fw-bold ">16 000 <sup class="text-muted">F cfa / mois</sup></p>
-            </div>
-
-
-            <p class="text-muted m-0 p-0"> + 800 F cfa par collaborateur par mois</p>
-            <div>
-                <p class="fw-bold">Fonctionnalités</p>
-                <ul class="list-unstyled">
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>prévisualisation des bulletins</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>registre du personnel</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>import et export des données</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>5 espaces administrateur</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>10 espaces manager</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Espace salairié</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Congés et absences</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion de notes de frais</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Génération de documents RH</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des intérimaires</li>
-                    <li class="text-muted"><i class="bx bx-x me-2 fs-5 fw-bold text-danger"></i>Gestion des stagiaires</li>
-                </ul>
-            </div>
-            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
-
-        </div>
-
-        <!-- Premium -->
-        <div class="col  p-3 bg-light rounded-4">
-            <h2 class="fw-bold">Plan premium</h2>
-            <p class="text-muted mb-3">Le plan basique et avancé pour vous et vos salairiés</p>
-
-            <div>
-                <p class="fs-3 fw-bold ">16 000 <sup class="text-muted">F cfa / mois</sup></p>
-            </div>
-
-
-            <p class="text-muted m-0 p-0"> + 1000 F cfa par collaborateur par mois</p>
-            <div>
-                <p class="fw-bold">Fonctionnalités</p>
-                <ul class="list-unstyled">
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Paie automatisée</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Intégration à la prévoyance</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Saisie des variables de paie</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Prévisualisation des bulletins</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Registre du personnel</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Import et export des données</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>10 espaces administrateur</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>20 espaces manager</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Espace salairié</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Congés et absences</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion de notes de frais</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Génération de documents RH</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion des intérimaires</li>
-                    <li><i class="bx bx-check me-2 fs-5 fw-bold text-success"></i>Gestion des stagiaires</li>
-                </ul>
-            </div>
-            <p class="fs-7 text-muted">* Sans engagement. Sans frais caché.</p>
         </div>
     </div>
 </div>
-<div class="bg-light px-4 py-5">
+<div class="bg-light px-4 py-5" id="ABOUTBETATEST">
     <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5">
-      <div class="col d-flex flex-column align-items-start gap-2">
-        <h2 class="fw-bold text-body-emphasis">
-        Devenez bêta-testeur et contribuez à façonner l'avenir de Squarhe</h2>
-        <p class="text-body-secondary">Nous sélectionnons soigneusement les bêta-testeurs en fonction de leur profil et de leurs intérêts. Nous comptons sur vous pour nous aider à faire de Squarhe le meilleur logiciel RH possible pour les entreprises camerounaises.
+        <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">
+                Devenez bêta-testeur et contribuez à façonner l'avenir de Squarhe</h2>
+            <p class="text-body-secondary">Nous sélectionnons soigneusement les bêta-testeurs en fonction de leur profil et de leurs intérêts. Nous comptons sur vous pour nous aider à faire de Squarhe le meilleur logiciel RH possible pour les entreprises camerounaises.
 
-Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
-        <a href="#" class="btn btn-primary ">S'inscrire</a>
-      </div>
-
-      <div class="col">
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
-          <div class="col d-flex flex-column gap-2">
-            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-            <i class='bx bx-brightness display-6 '></i>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Accès exclusif</h4>
-            <p class="text-body-secondary">Soyez parmi les premiers à découvrir les nouvelles fonctionnalités et à tester les dernières innovations de Squarhe.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-            <i class='bx bx-extension display-6'></i>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Avis et contribution</h4>
-            <p class="text-body-secondary">Vos commentaires et suggestions précieux nous aideront à améliorer Squarhe et à en faire le meilleur outil possible pour nos utilisateurs.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-            <i class='bx bx-chat display-6'></i>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Intéraction</h4>
-            <p class="text-body-secondary">Participez à des forums et à des discussions en ligne pour partager vos expériences avec d'autres bêta-testeurs et l'équipe de développement de Squarhe.</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-            <i class='bx bx-crown display-6' ></i>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Reconnaissance</h4>
-            <p class="text-body-secondary">Votre nom figurera dans la liste des remerciements de la version officielle de Squarhe.</p>
-          </div>
+                Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
+            <a href="#" class="btn btn-primary ">S'inscrire</a>
         </div>
-      </div>
+
+        <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col d-flex flex-column gap-2">
+                    <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        <i class='bx bx-brightness display-6 '></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis">Accès exclusif</h4>
+                    <p class="text-body-secondary">Soyez parmi les premiers à découvrir les nouvelles fonctionnalités et à tester les dernières innovations de Squarhe.</p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                    <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        <i class='bx bx-extension display-6'></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis">Avis et contribution</h4>
+                    <p class="text-body-secondary">Vos commentaires et suggestions précieux nous aideront à améliorer Squarhe et à en faire le meilleur outil possible pour nos utilisateurs.</p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                    <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        <i class='bx bx-chat display-6'></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis">Intéraction</h4>
+                    <p class="text-body-secondary">Participez à des forums et à des discussions en ligne pour partager vos expériences avec d'autres bêta-testeurs et l'équipe de développement de Squarhe.</p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                    <div class=" w-25 p-1 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                        <i class='bx bx-crown display-6'></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis">Reconnaissance</h4>
+                    <p class="text-body-secondary">Votre nom figurera dans la liste des remerciements de la version officielle de Squarhe.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div class="bg-white px-4 py-5">
+<div class="bg-white px-4 py-5" id="WHYSQUARHE">
     <h1 class="text-center text-dark">Pourquoi choisir Squarhe ?</h1>
-    <div class="row">
-        <div class="col">
+    <div class="row mt-3">
+        <div class="col-6">
             <h4>Je simplifie ma paie</h4>
             <ul class="list-unstyled">
                 <li>
@@ -232,16 +249,25 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
             </ul>
 
         </div>
-        <div class="col-8">
+        <div class="col-6">
+<img
+    src="src\img\cookie.svg"
+    class="img-fluid rounded-top"
+    alt="" width="100"height="100"
+/>
 
         </div>
     </div>
 
     <div class="row my-4">
-        <div class="col-8">
-
+        <div class="col-6">
+        <img
+    src="src\img\ghost-img.png"
+    class="img-fluid rounded-top"
+    alt="" width="100"height="100"
+/>
         </div>
-        <div class="col">
+        <div class="col-6">
             <h4>Je fais le choix de la fiabilité</h4>
             <ul class="list-unstyled">
                 <li>
@@ -263,7 +289,7 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
 
 
     <div class="row">
-        <div class="col">
+        <div class="col-6">
             <h4>Je gère ma paie en ligne</h4>
             <ul class="list-unstyled">
                 <li>
@@ -289,8 +315,12 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
             </ul>
 
         </div>
-        <div class="col-8">
-
+        <div class="col-6">
+        <img
+    src="src\img\cookie.svg"
+    class="img-fluid rounded-top"
+    alt="" width="100"height="100"
+/>
         </div>
     </div>
 
@@ -360,7 +390,7 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
   </div>
 </section>
 </div> -->
-<div class="bg-white px-4 py-5">
+<div class="bg-light px-4 py-5" id="FAQS">
     <h1 class="text-center text-dark">FAQs</h1>
     <div class="accordion" id="FAQSAccordion">
         <div class="accordion-item my-3 rounded-4">
@@ -439,4 +469,7 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
     </div>
 
 </div>
+
+
+
 <?php require_once "src/layouts/footer.php" ?>
