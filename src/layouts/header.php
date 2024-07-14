@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/src/css/bootstrap.css">
   <link rel="stylesheet" href="/src/css/boxicons/boxicons.min.css">
   <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/src/css/splide.min.css">
 
 
   <title><?= $title ?> | Squarhe</title>

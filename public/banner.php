@@ -51,38 +51,6 @@ require_once "src/layouts/header.php" ?>
                 <p>Vous accueillez un nouvel employé ? Générez son contrat de travail et bien plus avec SQUARHE ! Importez vos modèles sur SQUARHE et générez vos documents en un clic.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
-        <i class="bx bx-save display-6  me-3"></i>
-
-            <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Stockage de documents</h3>
-                <p>Une fois les documents générés et signés, ils sont stockés et archivés dans votre espace Documents sur SQUARHE. Plus besoin d'imprimer ! Vos employés deviennent plus autonomes et accèdent depuis leurs espaces personnels à ces documents.</p>
-            </div>
-        </div>
-        <div class="col d-flex align-items-start">
-        <i class="bx bx-coin display-6  me-3"></i>
-
-            <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Validation des frais</h3>
-                <p>Les managers reçoivent les demandes de remboursement de leur équipe. Ils visualisent la catégorie de dépense, la date et le montant. Le montant dépasse le plafond défini par l'administrateur ? Ils sont informés !</p>
-            </div>
-        </div>
-        <div class="col d-flex align-items-start">
-        <i class="bx bx-group display-6  me-3"></i>
-
-            <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Des rôles sur mesure</h3>
-                <p>Vos managers bénéficient d'un espace dédié, différent de leur espace personnel. Construit comme l'espace administrateur, il centralise toutes les informations dont ils ont besoin pour manager leur équipe.</p>
-            </div>
-        </div>
-        <div class="col d-flex align-items-start">
-        <i class="bx bx-check-circle display-6  me-3"></i>
-
-            <div>
-                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Validation des absences</h3>
-                <p>Vos managers reçoivent toutes les demandes de congés et absences des membres de leur équipe. Ils visualisent la période demandée, la durée et le type d'absence. Ils peuvent alors prendre la décision de la valider ou non.</p>
-            </div>
-        </div>
     </div>
 </div>
 <div class="bg-white px-4 py-5">
@@ -327,9 +295,71 @@ Inscrivez-vous dès aujourd'hui et devenez bêta-testeur !</p>
     </div>
 
 </div>
-<div class="bg-light px-4 py-5">
+<!-- <div class="bg-light px-4 py-5">
     <h1 class="text-center text-dark">Ce que nos clients pensent de SQUARHE</h1>
-</div>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+  <div class="splide__track">
+		<div class="splide__list">
+			<div class="splide__slide">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>
+                            “Logiciel complet et mis à jour régulièrement ce qui est très important car les taux et la législation changent tout le temps”</p>
+                            <footer class="blockquote-footer">
+                                <cite title="Source title">Publié par un de nos bêta testeur</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                
+            </div>
+			<div class="splide__slide">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>
+                                “Une gestion facile avec les fonctionnalités du logiciel. ”
+                                <footer class="blockquote-footer">
+                                <cite title="Source title">Publié par un de nos bêta testeur</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                
+            </div>
+			<div class="splide__slide">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>
+                                “Une gestion facile avec les fonctionnalités du logiciel. ”
+                                <footer class="blockquote-footer">
+                                <cite title="Source title">Publié par un de nos bêta testeur</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                
+            </div><div class="splide__slide">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>
+                                “Une gestion facile avec les fonctionnalités du logiciel. ”
+                                <footer class="blockquote-footer">
+                                <cite title="Source title">Publié par un de nos bêta testeur</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                
+            </div>
+            
+		</div>
+  </div>
+</section>
+</div> -->
 <div class="bg-white px-4 py-5">
     <h1 class="text-center text-dark">FAQs</h1>
     <div class="accordion" id="FAQSAccordion">

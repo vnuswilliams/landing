@@ -59,6 +59,16 @@
         </footer>
         </div>
         <script src="/src/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/src/js/splide.min.js"></script>
+        <script>
+  var splide = new Splide( '.splide', {
+  type   : 'loop',
+  padding: '5rem',
+} );
+
+splide.mount();
+</script>
+        </script>
         </body>
 
         </html>
