@@ -457,7 +457,10 @@ require_once "src/layouts/header.php" ?>
     </div>
 
 </div>
+<div class="pt-3 pb-4">
 
+    <p class="text-center text-muted" style="font-size: 12px !important;"><strong>Note importante</strong> : Les fonctionnalités décrites dans cette page peuvent être sujettes à des modifications ou à des améliorations avant le lancement officiel. Nos équipes travaillent constamment à son amélioration, et certaines caractéristiques peuvent être ajustées pour répondre aux besoins des utilisateurs et aux standards de qualité les plus élevés. Ces modifications visent à offrir une expérience optimale et à intégrer les dernières innovations. Nous vous remercions de votre compréhension et de votre confiance.</p>
+</div>
 
 
 <?php require_once "src/layouts/footer.php" ?>
